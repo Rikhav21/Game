@@ -2,7 +2,6 @@ import Phaser from 'phaser'
 
 let player;
 let cursors;
-let score = 0;
 const config = {
     type: Phaser.AUTO,
 
@@ -47,7 +46,8 @@ function create() {
         worldHeight,
         0x222222
     );
-
+    
+    let score = 0;
     player = this.physics.add.sprite(100, 100, 'triangle');
 
     player.setCollideWorldBounds(true);
