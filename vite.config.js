@@ -1,0 +1,5 @@
+import {defaultConfig} from 'vite';
+
+export default defineConfig({
+    base: '/Game/'
+});
