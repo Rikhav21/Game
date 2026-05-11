@@ -1,0 +1,1 @@
+*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%}body{color:#fff;background-color:#020632;flex-direction:column;min-height:100vh;display:flex}header,footer{justify-content:center;align-items:center;padding:40px 20px;display:flex}main{flex:1;display:flex}#gameCanvas{z-index:1;display:flex;position:absolute}
